@@ -1,0 +1,19 @@
+    Instructiuni: 
+        install node
+        run npm install
+        run npm start
+
+    ///
+    Am ales sa fac o Single Page Aplication cu ReactJS pentru ca mi s-a parut o provocare.
+
+    ///
+    A fost dificil sa ma incadrez in timp desi nu am terminat tot ce aveam de facut.
+        -nu am facut test coverage
+        -nu am testat input data (ex: validare mail, validare url etc)
+        -nu am pus sageti la butoanele de next/back
+
+    ///
+    Ca sursa de inspiratie am folosit putin stackoverflow si documentatia de la ReactJS.
+
+    ///
+    Codul meu nu respecta intocmai bunele practici si nu este foarte bine organizat, dar lucrez la asta.
