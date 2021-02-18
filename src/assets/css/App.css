@@ -1,0 +1,328 @@
+@font-face {font-family: "Europa-Bold"; src: url("//db.onlinewebfonts.com/t/d3bfee78e8ead45d9057a95bb6ff5de8.eot"); src: url("//db.onlinewebfonts.com/t/d3bfee78e8ead45d9057a95bb6ff5de8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d3bfee78e8ead45d9057a95bb6ff5de8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d3bfee78e8ead45d9057a95bb6ff5de8.woff") format("woff"), url("//db.onlinewebfonts.com/t/d3bfee78e8ead45d9057a95bb6ff5de8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d3bfee78e8ead45d9057a95bb6ff5de8.svg#Europa-Bold") format("svg"); }
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+@font-face {font-family: "Europa"; src: url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.eot"); src: url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.woff") format("woff"), url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.svg#Europa") format("svg"); }
+@font-face {font-family: 'Avenir'; src:local('./fonts/AvenirLTStd-Black.otf')}
+
+
+.user-box {
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding-top: 0.5rem;
+}
+
+.user-type-card {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 100%;
+  width: 20%;
+  max-width: 260px;
+}
+
+.user-type-card button {
+  margin-top: auto;
+  font-family: "Europa", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+  padding: 0.3rem 2.2rem;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor:pointer;
+}
+
+.user-type-card button:hover {
+  background-color: #222;
+}
+.user-type-card p {
+  font-family: "Europa", sans-serif;
+  font-weight: 200;
+  font-size: 1.1rem;
+  line-height: 23px;
+  padding: 1rem 0.6rem 1rem 0.6rem;
+  background-color: #efefef;
+  height: 100%;
+}
+.user-type-card h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.avatar-image {
+  width: 80%;
+  max-width: 255px;
+}
+
+.first-slide-header {
+  padding: 1.45rem 0;
+  font-family: "Europa-Bold", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.85rem;
+}
+
+/*
+* survey slide
+*/
+body {
+  margin: 0;
+  padding: 0;
+}
+.survey-container {
+  display: flex;
+
+}
+
+.image-box-pattern-container {
+  background-color: #57C1BA;
+  width: 50%;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.image-box-pattern-container img {
+  height: 100%;
+  width: auto;
+}
+
+.logo-littledata {
+  max-width: 60px;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.survey-form {
+  width: 23%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.slide-header {
+  font-family: "Europa-Bold", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.progress-bar-container {
+  width: 100%;
+  border-radius: 4px;
+  background-color: #d8d8d8;
+  height: 8px; 
+  margin-top: -10px;
+}
+
+.progress-bar-inside {
+  background-color: #57C1BA;
+  border-radius: 4px;
+  width: 50%;
+  height: 8px;
+  animation: half-progress 1.2s;
+}
+
+.progress-bar-inside-complete {
+  background-color: #57C1BA;
+  border-radius: 4px;
+  width: 100%;
+  height: 8px;
+  animation: full-progress 1.2s;
+}
+
+.input-text {
+  border: 1px solid #747676;
+  padding: 0.7rem 0;
+  border-radius: 4px;
+  width: 100%;
+  text-indent: 15px;
+  font-family: 'Europa', sans-serif;
+  font-size: 0.9rem;
+  margin-top: -15px;
+}
+
+
+.label-input {
+  font-family: 'Europa-Bold', sans-serif;
+  color: #464849;
+  font-size: 1.3rem;
+}
+
+.box-email-notifications {
+  border-radius: 4px;
+  background-color: #DBEEED;
+  padding: 0rem 1.2rem 1rem 1.2rem;
+  margin-top: 20px;
+}
+
+.box-email-notifications .input-text {
+  border: none;
+}
+
+.box-email-notifications div {
+  padding-top: 0.5rem;
+}
+.box-email-notifications h4 {
+  padding-top: 0.5rem;
+}
+.box-email-notifications div input {
+  border: none;
+  border-radius: 4px;
+  width: 16px;
+  height: 16px;
+}
+
+.box-email-notifications div label {
+  color: #5D5E5F;
+  font-family: 'Europa', sans-serif;
+  font-size: 0.75rem;
+  vertical-align: text-top;
+}
+
+.back-next-button {
+  background-color: #E8E8E8;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  color: #464849;
+  font-size: 0.8rem;
+  margin-top: 45px;
+  padding: 0.6rem 2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.back-button {
+  float:left;
+}
+.next-button {
+  float:right;
+}
+.back-next-button:hover{
+  color:#fff;
+  background-color: #0FA69D;
+}
+
+
+/*
+* second slide
+*/
+
+.label-radio-answers {
+  font-family: 'Europa-Bold', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #333A4B;
+  padding: 1rem 0;
+  text-transform: uppercase;
+  vertical-align: text-top;
+  margin-right: 0.5rem;
+}
+
+.radio-wrapper {
+  padding-top: 0.5rem;
+}
+
+.yes-no-wrapper {
+  padding-right: 1rem;
+  display: flex;
+}
+
+.yes-no-wrapper label {
+  vertical-align: text-top;
+  text-transform: uppercase;
+  margin-right: 0.5rem;
+}
+
+.yes-no-wrapper input {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.subheader-third-slide {
+  font-family: 'Europa', sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #747676;
+}
+
+.button-google-segment {
+  background-color: #fff;
+  min-width: 170px;
+  min-height: 172px;
+  padding: 1rem;
+  margin: 3rem 1.5rem; 
+  border: 1px solid #DBEEED;
+  outline: none;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.button-google-segment:hover {
+  background-color: #f1f1f1;
+}
+
+.button-google-segment:focus {
+  box-shadow: inset 4px 4px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.button-google-segment p {
+  font-family: 'Europa-Bold', sans-serif;
+  font-size: 1.2rem;
+  color: #333A4B;
+}
+.buttons-container-google-segment {
+
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+/*
+*third slide
+*/
+
+.final-slide-header {
+  padding: 1.2rem 0;
+  font-family: "Europa-Bold", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 3.2rem;
+}
+
+.final-slide-img {
+  display: block;
+  max-width: 45%;
+  margin: 0 auto;
+}
+
+.final-slide-button {
+  display: block;
+  margin: 1rem auto 0 auto; 
+  font-family: "Europa", sans-serif;
+  font-size: 1.7rem;
+  padding: 1rem 3.5rem;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor:pointer;
+}
+
+.final-slide-button:hover {
+  background-color: #222;
+}
+
+@keyframes half-progress {
+  from {width: 0%;}
+  to {width: 50%;}
+}
+
+@keyframes full-progress {
+  from {width: 50%;}
+  to {width: 100%;}
+}
